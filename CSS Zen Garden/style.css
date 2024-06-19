@@ -1,0 +1,13 @@
+/* Color Theme Swatches in Hex */
+
+.principal { color: #0D0C08; }
+.Arquitetura-2-hex { color: #403222; }
+.destaque { color: #8C7456; }
+.background { color: #D9AB82; }
+.Arquitetura-5-hex { color: #8C543F; }
+
+
+html {
+    background: #D9AB82;
+    color: #0D0C08;
+}
