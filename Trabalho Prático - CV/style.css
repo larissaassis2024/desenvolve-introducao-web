@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+html {
+    background: #F2F2F2;
+    color: #0D0C08;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img{
+    height: 150px;
+    width: 200px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul li {
+    width: 100%;
+    background-color: gray;
+}
+
+nav ul li:hover {
+    background-color: rgb(206, 206, 200);
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+}
+
+
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 20px;  
+}
+
+
+#educacao {
+   padding: 20px;
+}
+
+#educacao h2{
+    background-color: rgb(206, 206, 200);;
+}
+#certificacoes h2{
+    background-color: rgb(206, 206, 200);;
+}
+
+#certificacoes {
+    padding: 20px;
+
+}
+
+#experiencias {
+    padding: 20px;
+}
+
+#experiencias h2 {
+    background-color: rgb(206, 206, 200);
+
+}
+
+#habilidades {
+    padding: 20px;
+}
+
+#habilidades h2{
+    background-color: rgb(206, 206, 200);
+}
+
+.habilidade {
+    padding: 20px;
+}
+
+#links {
+    background-color: gray;
+}
+
+@media  screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+
+    .personal {
+        align-items: center;
+    }
+    
+  }
