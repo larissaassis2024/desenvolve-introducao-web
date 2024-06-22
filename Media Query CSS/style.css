@@ -77,7 +77,7 @@ a:hover {
     padding-right: 2%;
 }
 
-#design-selection {
+.design-selection {
     position: absolute;
     top: 500px;
     left: 62%;
@@ -161,7 +161,32 @@ abbr {font-variant: small-caps;}
 /* Media Query */
 
 @media screen and (max-width: 768px) {
-    .design-selection {
+    
+    #zen-intro {
+        height: auto;
+    }
+    
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
+
+}
+
+@media print {
+      html {
+        font-family: 'Times New Roman', Times, serif;
+      }  
+
+      #zen-intro header {
+        background-color: #D9AB82;
+        color: #0D0C08
+      }
+
+      .design-selection {
         position: static;
         width: 100%;
     }
